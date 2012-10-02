@@ -150,7 +150,7 @@ class Python < Formula
 
       # Fix 3)
       #   For all Pythons: Tell about homebrew's site-packages location.
-      #   This is needed for for Python to parse *.pth files.
+      #   This is needed for Python to parse *.pth files.
       site.addsitedir('#{site_packages}')
     EOF
 
